@@ -1,8 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mapletown:item/mapplite_ingot"
+    "layer0": "mapletown:item/raw_mapplite"
 
   }
 }
-  
