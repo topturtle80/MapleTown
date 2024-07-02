@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "mapplite_ingot",
+  "ingredient": {
+    "item": "mapletown:raw_mapplite"
+  },
+  "result": "mapletown:mapplite_ingot"
+}

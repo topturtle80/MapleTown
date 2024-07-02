@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mapletown:mapplite_ingot"
+    }
+  ],
+  "result": {
+    "item": "mapletown:mapplite_nugget",
+    "count": 9
+  }
+}

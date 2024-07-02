@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.narurock.mapletown.block.ModBlocks;
 import net.narurock.mapletown.item.ModCreativeModeTabs;
 import net.narurock.mapletown.item.ModItems;
 import org.slf4j.Logger;
@@ -29,6 +30,8 @@ public class MapleTown {
 
         ModItems.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup);
 
@@ -43,8 +46,7 @@ public class MapleTown {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.mapplite_ingot);
-            event.accept(ModItems.raw_mapplite);
+
         }
     }
 

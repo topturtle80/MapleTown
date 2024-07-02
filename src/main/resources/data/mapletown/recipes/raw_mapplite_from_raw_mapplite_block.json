@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mapletown:raw_mapplite_block"
+    }
+  ],
+  "result": {
+    "item": "mapletown:raw_mapplite",
+    "count": 9
+  }
+}

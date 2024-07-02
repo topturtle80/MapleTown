@@ -1,6 +1,9 @@
 {
   "item.mapletown.mapplite_ingot" : "Mapplite Ingot",
   "item.mapletown.raw_mapplite" : "Raw Mapplite",
-  "creativetab.maple_tab": "Maple Mod Tab"
+  "item.mapletown.mapplite_nugget" : "Mapplite Nugget",
+  "block.mapletown.mapplite_block": "Mapplite Block",
+  "block.mapletown.raw_mapplite_block": "Raw Mapplite Block",
+  "creativetab.maple_tab": "Maple Town Mod Tab"
 
 }

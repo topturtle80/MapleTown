@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mapletown:raw_mapplite"
+    }
+  },
+  "result": {
+    "item": "mapletown:raw_mapplite_block"
+  }
+}

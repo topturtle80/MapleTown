@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.narurock.mapletown.MapleTown;
+import net.narurock.mapletown.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -20,6 +21,9 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameter, pOutput) -> {
                         pOutput.accept(ModItems.raw_mapplite.get());
                         pOutput.accept(ModItems.mapplite_ingot.get());
+                        pOutput.accept(ModBlocks.MAPPLITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_MAPPLITE_BLOCK.get());
+                        pOutput.accept(ModItems.mapplite_nugget.get());
                     })
                     .build());
 

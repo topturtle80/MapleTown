@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> mapplite_ingot = Items.register("mapplite_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> mapplite_nugget = Items.register("mapplite_nugget",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> raw_mapplite = Items.register("raw_mapplite",
             () -> new Item(new Item.Properties()));
     public static void register(IEventBus eventbus) {
