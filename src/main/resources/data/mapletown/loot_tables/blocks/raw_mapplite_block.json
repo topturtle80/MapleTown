@@ -14,8 +14,8 @@
           "name": "mapletown:raw_mapplite_block"
         }
       ],
-      "pools": 1.0
+      "rolls": 1.0
     }
   ],
-  "random_sequence": "mapletown:blocks/raw_mapplite_block"
+  "random_sequence": "mapletown:blocks/mapplite_block"
 }

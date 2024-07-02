@@ -4,6 +4,7 @@
   "item.mapletown.mapplite_nugget" : "Mapplite Nugget",
   "block.mapletown.mapplite_block": "Mapplite Block",
   "block.mapletown.raw_mapplite_block": "Raw Mapplite Block",
-  "creativetab.maple_tab": "Maple Town Mod Tab"
-
+  "creativetab.maple_tab": "Maple Town Mod Tab",
+  "block.mapletown.deepslate_mapplite_ore": "Deepslate Mapplite Ore",
+  "block.mapletown.mapplite_ore": "Mapplite Ore"
 }

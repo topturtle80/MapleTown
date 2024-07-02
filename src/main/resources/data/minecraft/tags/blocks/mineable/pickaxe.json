@@ -1,6 +1,8 @@
 {
   "values": [
     "mapletown:mapplite_block",
-    "mapletown:raw_mapplite_block"
+    "mapletown:raw_mapplite_block",
+    "mapletown:mapplite_ore",
+    "mapletown:deepslate_mapplite_ore"
   ]
 }

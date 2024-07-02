@@ -1,9 +1,12 @@
 package net.narurock.mapletown.block;
 
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -24,6 +27,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> RAW_MAPPLITE_BLOCK = registerBlock("raw_mapplite_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
+
+    public static final RegistryObject<Block> MAPPLITE_ORE = registerBlock("mapplite_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE), UniformInt.of(3,6)));
+
+    public static final RegistryObject<Block> DEEPSLATE_MAPPLITE_ORE = registerBlock("deepslate_mapplite_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(3f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(3,7)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

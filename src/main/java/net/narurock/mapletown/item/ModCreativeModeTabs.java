@@ -24,6 +24,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.MAPPLITE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_MAPPLITE_BLOCK.get());
                         pOutput.accept(ModItems.mapplite_nugget.get());
+                        pOutput.accept(ModBlocks.MAPPLITE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_MAPPLITE_ORE.get());
                     })
                     .build());
 
